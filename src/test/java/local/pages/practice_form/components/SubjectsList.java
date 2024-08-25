@@ -1,4 +1,4 @@
-package local.pages.practice_form;
+package local.pages.practice_form.components;
 
 import java.util.List;
 import java.util.Random;

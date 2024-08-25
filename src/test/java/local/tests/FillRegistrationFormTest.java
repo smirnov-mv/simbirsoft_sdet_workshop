@@ -3,7 +3,7 @@ package local.tests;
 import com.github.javafaker.Faker;
 import local.jupiter.WebTest;
 import local.pages.practice_form.PracticeFormPage;
-import local.pages.practice_form.SubjectsList;
+import local.pages.practice_form.components.SubjectsList;
 import local.pages.practice_form.components.Gender;
 import local.pages.practice_form.components.StateWithCity;
 import org.junit.jupiter.api.DisplayName;
