@@ -32,6 +32,8 @@
 - **Java 21 LTS**
 - **Selenide**
 - **Allure**
+- **Maven**
+- **JUnit5**
 
 ### Запуск тестов
 
