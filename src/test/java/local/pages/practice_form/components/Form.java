@@ -11,8 +11,7 @@ import java.util.Locale;
 
 import static com.codeborne.selenide.Condition.exactTextCaseSensitive;
 import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.*;
 
 public class Form {
 
@@ -64,7 +63,7 @@ public class Form {
 
     @Step("[Step] Заполняем поле Subjects [{0}]")
     public Form enterAndSelectSubject(String subject) {
-        $(".subjects-auto-complete__value-container").click();
+        $x("//*[contains(@class, 'subjects-auto-complete__value-container')]").click();
         Selenide.actions().sendKeys(subject).perform();
         $(".subjects-auto-complete__menu").$(byText(subject)).click();
         return this;
