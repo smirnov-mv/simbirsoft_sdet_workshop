@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Sep 13 04:05:44 GMT 2024","Fri Sep 13 04:05:55 GMT 2024","11234","","local.tests.FillRegistrationFormTest","","local.tests.FillRegistrationFormTest","test","Заполнение формы регистрации",""
